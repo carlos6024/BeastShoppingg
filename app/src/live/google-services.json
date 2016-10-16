@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "574419105199",
+    "firebase_url": "https://beastshopping-70633.firebaseio.com",
+    "project_id": "beastshopping-70633",
+    "storage_bucket": "beastshopping-70633.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574419105199:android:5e994d1bf9668889",
+        "android_client_info": {
+          "package_name": "com.carlosapp.beastshopping.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574419105199-guqvq0tb7em9pfp6pka23r25ref76t8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carlosapp.beastshopping.live",
+            "certificate_hash": "4808F40EF32ADBFF4EA44632E658A3004FA52BF4"
+          }
+        },
+        {
+          "client_id": "574419105199-on7e6ob9qe395g9h31bka8c83cb61hk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB95tx3T-XUrlbUWZO_L-dW-8kgyODEgI4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574419105199-on7e6ob9qe395g9h31bka8c83cb61hk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

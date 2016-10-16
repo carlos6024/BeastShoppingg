@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_shopping_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:background="@drawable/recycler_background"
+    >
+
+    <TextView
+        android:id="@+id/list_shopping_list_listName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Shopping List Name"
+        />
+
+    <TextView
+        android:id="@+id/list_shopping_list_listCreatedBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created By:"
+        android:layout_below="@+id/list_shopping_list_listName"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/list_shopping_list_listOwnerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/list_shopping_list_listCreatedBy"
+        android:layout_toEndOf="@+id/list_shopping_list_listCreatedBy"
+        android:text="Carlos Valentin"
+        android:textSize="12sp"
+        android:layout_below="@+id/list_shopping_list_listName"
+        />
+
+    <TextView
+        android:id="@+id/list_shopping_list_dateCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10/10/2016"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        />
+
+
+
+
+</RelativeLayout>

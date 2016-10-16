@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_login_linear_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:src="@drawable/logo_two"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="13dp"
+        />
+
+    <EditText
+        android:id="@+id/activity_login_userEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:padding="14dp"
+        android:inputType="textEmailAddress"
+        android:background="@color/colorPrimary"
+        android:hint="Email"
+        android:drawableLeft="@mipmap/ic_email"
+        android:drawableStart="@mipmap/ic_email"
+        />
+
+
+    <EditText
+        android:id="@+id/activity_login_userPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:padding="14dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:hint="Password"
+        android:drawableLeft="@mipmap/ic_lock"
+        android:drawableStart="@mipmap/ic_lock"
+        />
+
+    <Button
+        android:id="@+id/activity_login_loginButton"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:text="Sign In"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
+        />
+
+
+    <Button
+        android:id="@+id/activity_login_registerButton"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:text="No Account? Sign Up"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/activity_login_facebook_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+</LinearLayout>

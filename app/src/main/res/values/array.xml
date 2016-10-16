@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_sort_entries">
+        <item>@string/pref_entry_publishTime</item>
+        <item>@string/pref_entry_listName</item>
+        <item>@string/pref_entry_ownerEmail</item>
+    </string-array>
+
+
+
+    <string-array name="pref_sort_entries_values">
+        <item>@string/pref_entry_publishTime_value</item>
+        <item>@string/pref_entry_listName_value</item>
+        <item>@string/pref_entry_ownerEmail_value</item>
+    </string-array>
+
+
+
+
+
+
+</resources>

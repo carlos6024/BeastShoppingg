@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/list_shopping_item_itemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="0.95"
+            android:text="Item 1"
+            />
+
+        <ImageView
+            android:id="@+id/list_shopping_item_itemView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_weight="0.05"
+            android:background="@drawable/button_background"
+            android:src="@mipmap/ic_trash"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/list_shopping_item_boughtBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bought By"
+        android:layout_gravity="end"
+        android:layout_marginTop="5dp"
+        />
+
+</LinearLayout>
