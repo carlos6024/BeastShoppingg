@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">BeastShoppingg</string>
-    <string name="facebook_app_id">1703132550008031</string>
+    <string name="facebook_app_id">Enter FaceBook Id Here</string>
 
     <string name="pref_sort_list_name">pref_sort_list_name</string>
 

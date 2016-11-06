@@ -8,6 +8,7 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -184,6 +185,7 @@ public class ListDetailsActivity extends BaseActivity {
         super.onDestroy();
         mShoppingListReference.removeEventListener(mShoppingListListener);
         adapter.cleanup();
+        Log.i(ListDetailsActivity.class.getSimpleName(),"On destroy was called");
     }
 
 

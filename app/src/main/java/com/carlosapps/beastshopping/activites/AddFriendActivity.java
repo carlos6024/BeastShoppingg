@@ -57,10 +57,12 @@ public class AddFriendActivity extends BaseActivity {
 
 
 
-               if (isFriend(currentUserFriends.getUsersFriends(),user)){
-                   addFriendViewHolder.userItemView.setImageResource(R.mipmap.ic_check);
-               } else{
-                   addFriendViewHolder.userItemView.setImageResource(R.mipmap.ic_plus);
+               if (currentUserFriends.getUsersFriends()!=null){
+                   if (isFriend(currentUserFriends.getUsersFriends(),user)){
+                       addFriendViewHolder.userItemView.setImageResource(R.mipmap.ic_check);
+                   } else{
+                       addFriendViewHolder.userItemView.setImageResource(R.mipmap.ic_plus);
+                   }
                }
 
                addFriendViewHolder.itemView.setOnClickListener(new View.OnClickListener() {

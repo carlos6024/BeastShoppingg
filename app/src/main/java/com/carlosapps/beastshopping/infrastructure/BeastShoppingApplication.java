@@ -23,6 +23,7 @@ public class BeastShoppingApplication extends Application {
         Module.Register(this);
         FacebookSdk.sdkInitialize(getApplicationContext());
         AppEventsLogger.activateApp(this);
+        Firebase.getDefaultConfig().setPersistenceEnabled(true);
     }
 
     public Bus getBus() {

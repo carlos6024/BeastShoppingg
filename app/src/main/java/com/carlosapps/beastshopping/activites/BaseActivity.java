@@ -21,7 +21,6 @@ public class BaseActivity extends AppCompatActivity {
     protected FirebaseAuth auth;
     protected FirebaseAuth.AuthStateListener authStateListener;
     protected String userEmail,userName;
-    protected SharedPreferences sharedPreferences;
 
 
     @Override
@@ -88,6 +87,7 @@ public class BaseActivity extends AppCompatActivity {
             auth.removeAuthStateListener(authStateListener);
         }
     }
+
 
 
 
